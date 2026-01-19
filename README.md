@@ -2,6 +2,25 @@
 
 This SolidWorks VBA macro automates the export of the active drawing and its referenced model to multiple file formats, while intelligently archiving previous revisions to maintain version history.
 
+## Quick download (recommended)
+
+Most CAD / SolidWorks users don’t live in GitHub every day—so here are the easiest ways to grab the macro file.
+
+### Option A — Direct download link (1 click)
+
+Click this link to download the macro **as a file** (not a GitHub webpage):
+
+- **Download**: https://github.com/kilwizac/sw-advanced-output-archive/raw/main/Advanced%20File%20Output%20with%20Archive.swp
+
+If your browser opens a page instead of downloading, right‑click the link and choose **Save link as…**.
+
+### Option B — Download the whole repo as a ZIP
+
+1. Click **Code** (green button near the top of the repo)
+2. Choose **Download ZIP**
+3. Unzip it, then use the macro file:
+   - `Advanced File Output with Archive.swp`
+
 ## Features
 
 - **Drawing Export**: Exports the current drawing to DXF (with company-wide preferences) and PDF formats.
@@ -38,9 +57,16 @@ This SolidWorks VBA macro automates the export of the active drawing and its ref
 
 ## Installation
 
-- Download `Advanced File Output with Archive.swp` from this repository.
-- In SolidWorks, go to Tools > Macro > Run, and select the .swp file.
-- For persistent access, you can assign it to a toolbar button or menu.
+1. Download the macro:
+   - **Direct download (recommended):** https://github.com/kilwizac/sw-advanced-output-archive/raw/main/Advanced%20File%20Output%20with%20Archive.swp
+   - **Or** download the repository ZIP (Code → Download ZIP)
+
+2. In SolidWorks:
+   - Go to **Tools → Macro → Run…**
+   - Select `Advanced File Output with Archive.swp`
+
+3. (Optional) For persistent access:
+   - Assign it to a toolbar button or menu.
 
 ## Requirements
 
